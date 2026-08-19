@@ -1,5 +1,11 @@
 {
   "config": {
+    "step": {
+      "user": {
+        "title": "Notify to Persistent",
+        "description": "Add the Notify to Persistent integration? This creates a single notify entity that turns any message sent to it into a persistent notification."
+      }
+    },
     "abort": {
       "already_configured": "Notify to Persistent is already configured. Only one instance is needed."
     }
