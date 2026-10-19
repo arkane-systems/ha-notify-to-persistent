@@ -1,6 +1,6 @@
 # ![icon](assets/notify-to-persistent-32px.png) Notify to Persistent for Home Assistant
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
 Home Assistant is moving notifications from legacy `notify.notify_name` services to notify entities. `notify_to_persistent` bridges that gap for one specific case: it exposes a single notify entity that turns any message sent to it into a Home Assistant [persistent notification](https://www.home-assistant.io/integrations/persistent_notification/) — the kind that shows up in the notification bell.
 
@@ -10,7 +10,7 @@ That's the entire integration. No configuration, no options, no YAML.
 
 ## Installation
 
-Install via [HACS](https://hacs.xyz/) as a custom repository, or copy the `custom_components/notify_to_persistent` directory into your Home Assistant `custom_components` folder.
+Install via [HACS](https://hacs.xyz/): search for **Notify to Persistent** in HACS and install it, or copy the `custom_components/notify_to_persistent` directory into your Home Assistant `custom_components` folder manually.
 
 ---
 
