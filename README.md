@@ -10,13 +10,21 @@ That's the entire integration. No configuration, no options, no YAML.
 
 ## Installation
 
-Install via [HACS](https://hacs.xyz/): search for **Notify to Persistent** in HACS and install it, or copy the `custom_components/notify_to_persistent` directory into your Home Assistant `custom_components` folder manually.
+Notify to Persistent is in the HACS default catalog. From Home Assistant 2026.11, HACS is built into Home Assistant as the **Marketplace** (Settings → Marketplace); on earlier versions, install it through [HACS](https://hacs.xyz/).
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=arkane-systems&repository=ha-notify-to-persistent&category=integration)
+
+Open Notify to Persistent with the button above (it opens the Marketplace on 2026.11 or later, and HACS before that), or search for **Notify to Persistent** in the Marketplace or HACS. Download it and restart Home Assistant. Alternatively, copy the `custom_components/notify_to_persistent` directory into your Home Assistant `custom_components` folder manually.
 
 ---
 
 ## Setup
 
-1. Go to **Settings → Devices & Services → Add Integration** and search for **Notify to Persistent**.
+1. Add the integration:
+
+   [![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=notify_to_persistent)
+
+   or go to **Settings → Devices & Services → Add Integration** and search for **Notify to Persistent**.
 2. That's it — adding the integration immediately creates the `notify.persistent_notification` entity. There's nothing to configure, and only one instance is allowed.
 
 ```yaml
