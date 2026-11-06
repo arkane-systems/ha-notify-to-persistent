@@ -1,6 +1,7 @@
 {
   "domain": "notify_to_persistent",
   "name": "Notify to Persistent",
+  "categories": ["messaging_notifications"],
   "codeowners": ["@arkane-systems"],
   "config_flow": true,
   "dependencies": ["persistent_notification"],
@@ -9,5 +10,5 @@
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/arkane-systems/ha-notify-to-persistent/issues",
   "requirements": [],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
